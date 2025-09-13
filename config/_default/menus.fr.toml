@@ -1,0 +1,46 @@
+# main menu
+[[main]]
+name = "Accueil"
+url = ""
+weight = 1
+
+[[main]]
+name = "À propos"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "Produits"
+url = "products/"
+weight = 3
+
+[[main]]
+name = "Études de cas"
+url = "blog/"
+weight = 4
+
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 6
+
+# footer menu
+[[footer]]
+name = "À propos"
+url = "about/"
+weight = 2
+
+[[footer]]
+name = "Études de cas"
+url = "blog/"
+weight = 4
+
+[[footer]]
+name = "FAQ"
+url = "faq/"
+weight = 6
+
+[[footer]]
+name = "Obtenir un devis"
+url = "contact/"
+weight = 7

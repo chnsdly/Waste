@@ -1,0 +1,54 @@
+{
+  "name": "Baoheng | Waste Bin",
+  "short_name": "Baoheng | Waste Bin",
+  "lang": "en-US",
+  "theme_color": "#655e7a",
+  "background_color": "#fff",
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  "icons": [
+    {
+      "src": "/images/favicon_hu_3a0a5c9cf8a58cb2.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_dbcb46fd38a632ab.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_f328337297680ae3.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_35afef6c0d1cb63f.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_7ce26f7bb678c104.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_119e38a37210552.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  
+  
+  "display": "standalone",
+  "start_url": "/?utm_source=web_app_manifest"
+}

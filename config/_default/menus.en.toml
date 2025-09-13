@@ -1,0 +1,46 @@
+# main menu
+[[main]]
+name = "Home"
+url = ""
+weight = 1
+
+[[main]]
+name = "About Us"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "Products"
+url = "products/"
+weight = 3
+
+[[main]]
+name = "Case Studies"
+url = "blog/"
+weight = 4
+
+[[main]]
+name = "Contact Us"
+url = "contact/"
+weight = 6
+
+# footer menu
+[[footer]]
+name = "About Us"
+url = "about/"
+weight = 2
+
+[[footer]]
+name = "Case Studies"
+url = "blog/"
+weight = 4
+
+[[footer]]
+name = "FAQ"
+url = "faq/"
+weight = 6
+
+[[footer]]
+name = "Get a Quote"
+url = "contact/"
+weight = 7

@@ -1,0 +1,46 @@
+# main menu
+[[main]]
+name = "Home"
+url = ""
+weight = 1
+
+[[main]]
+name = "Chi Siamo"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "Prodotti"
+url = "products/"
+weight = 3
+
+[[main]]
+name = "Casi di Successo"
+url = "blog/"
+weight = 4
+
+[[main]]
+name = "Contattaci"
+url = "contact/"
+weight = 6
+
+# footer menu
+[[footer]]
+name = "Chi Siamo"
+url = "about/"
+weight = 2
+
+[[footer]]
+name = "Casi di Successo"
+url = "blog/"
+weight = 4
+
+[[footer]]
+name = "FAQ"
+url = "faq/"
+weight = 6
+
+[[footer]]
+name = "Richiedi un Preventivo"
+url = "contact/"
+weight = 7

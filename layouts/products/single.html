@@ -1,0 +1,245 @@
+{{- define "main" -}}
+<style>
+:root {
+  --gap: 1.5rem;
+  --radius: 1rem;
+  --clr-border: rgba(0,0,0,0.08);
+  --clr-bg: #f8fafc;
+  --clr-card: #fff;
+  --clr-heading: #222;
+  --clr-text: #333;
+  --clr-muted: #e6e6ea;
+  --fs-sm: 1.6rem;
+  --transition: .25s cubic-bezier(.4,0,.2,1);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --clr-border: rgba(255,255,255,0.10);
+    --clr-bg: #17191c;
+    --clr-card: #23262a;
+    --clr-heading: #e8eaf1;
+    --clr-text: #c2c6cf;
+    --clr-muted: #23272e;
+  }
+  html { background: var(--clr-bg); }
+}
+
+.section {
+  margin: 0 auto;
+  padding: clamp(1.2rem, 4vw, 3rem) 0;
+}
+
+.heading-b {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--clr-heading);
+  margin-bottom: 1.5rem;
+  letter-spacing: .02em;
+  line-height: 1.18;
+}
+
+/* 主视觉 */
+.hero {
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--clr-muted);
+  margin-bottom: var(--gap);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.05);
+}
+.hero img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition);
+}
+
+/* 卡片布局 */
+.cards {
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+.card {
+  background: var(--clr-card);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--radius);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  padding: 1.5rem 1.25rem;
+  transition: box-shadow var(--transition), transform var(--transition);
+}
+
+.card h3 { margin-top: 0; margin-bottom: .4em; color: var(--clr-heading); font-size: 1.8rem; }
+.card p { margin-bottom: 0; color: var(--clr-text); }
+
+/* 图文展示 */
+.gallery-grid {
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+  .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+}
+.gallery-item {
+  background: var(--clr-card);
+  border-radius: var(--radius);
+  border: 1px solid var(--clr-border);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  transition: box-shadow var(--transition), transform var(--transition);
+}
+
+.gallery-img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 16/10;
+  background: var(--clr-muted);
+}
+.gallery-caption {
+  padding: 1rem 1.1rem;
+  background: none;
+}
+.gallery-title {
+  font-size: 1.8rem;
+  margin-bottom: .3em;
+  color: var(--clr-heading);
+}
+
+/* 规格表 */
+.spec-table-wrapper {
+  overflow-x: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--clr-border);
+  background: var(--clr-card);
+  margin-top: 1.3rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  scrollbar-gutter: stable;
+}
+.spec-table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  font-size: var(--fs-sm);
+}
+.spec-table thead {
+  background: var(--clr-muted);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.spec-table th, .spec-table td {
+  padding: .75em 1em;
+  text-align: left;
+  white-space: nowrap;
+  border-bottom: 1px solid var(--clr-border);
+}
+.spec-table th { font-weight: 700; color: var(--clr-heading);}
+.spec-table tr:last-child td { border-bottom: none; }
+
+@media (max-width: 540px) {
+  .gallery-caption, .card { padding: 1rem .7rem;}
+  .heading { font-size: 1.3rem; }
+  .section { padding: 1rem 0; }
+}
+</style>
+
+{{ partial "page-title.html" . }}
+
+<div class="container" style="width: 1100px;">
+
+  <!-- 主视觉区 -->
+  {{ with .Params.hero_image }}
+  <section class="section" aria-label="页面主视觉">
+    <div class="hero">
+      <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="eager" width="1280" height="720" />
+    </div>
+  </section>
+  {{ end }}
+
+  <!-- 卖点区 -->
+  {{ with .Params.features }}
+  <section aria-labelledby="features-heading">
+    <div class="cards">
+      {{ range . }}
+      <div class="card">
+        <h3>{{ .title }}</h3>
+        <p>{{ .text }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  <!-- 产品图文展示 -->
+  {{ with .Params.showcase }}
+  {{ if .enable }}
+  <section class="section" aria-labelledby="gallery-heading" >
+    <h2 class="heading-b" id="gallery-heading">{{ .gallery_heading }}</h2>
+    <div class="gallery-grid">
+      {{ range .items }}
+      <figure class="gallery-item">
+        <img class="gallery-img" src="{{ .image | relURL }}" alt="{{ .title }}" loading="lazy" width="600" height="375" />
+        <figcaption class="gallery-caption">
+          <div class="gallery-title">{{ .title }}</div>
+          {{ with .content }}<p>{{ . }}</p>{{ end }}
+        </figcaption>
+      </figure>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
+
+
+<section class="section products">
+    <div class="row">
+      {{ range .Params.products.items }}
+      <div class="col-md-4 col-sm-6" style="margin-top: 40px;">
+        <div class="card mb-4 shadow-sm text-center">
+          <!-- 添加固定宽高比的容器 -->
+          <div style="position: relative; width: 100%; padding-top: 75%; /* 4:3 比例 */">
+            <img 
+              src="{{ .image | relURL }}" 
+              alt="{{ .title }}" 
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover; /* 关键属性 */
+              "
+            >
+          </div>
+          <h4>{{ .name }}</h4>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+</section>
+
+
+  <!-- 规格表 -->
+  {{ $headers := .Params.spec_headers }}
+  {{ with .Params.specs111111111111111 }}
+  <section class="section" id="specs" aria-labelledby="specs-heading">
+    <h2 class="heading-b" id="specs-heading">{{ i18n "specs_heading" | default "规格参数" }}</h2>
+    <div class="spec-table-wrapper" tabindex="0">
+      <table class="spec-table">
+        <thead>
+          <tr>{{ range $headers }}<th>{{ .label }}</th>{{ end }}</tr>
+        </thead>
+        <tbody>
+          {{ range $row := . }}
+          <tr>{{ range $headers }}<td>{{ index $row .key }}</td>{{ end }}</tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+  </section>
+  {{ end }}
+
+</div>
+{{- end -}}
