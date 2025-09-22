@@ -8,7 +8,7 @@
     <language>en-US</language>
     <atom:link href="http://localhost:1313/products/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>pedal 垃圾桶</title>
+      <title>踏板垃圾桶</title>
       <link>http://localhost:1313/products/pedal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/products/pedal/</guid>
@@ -43,7 +43,7 @@
       <description></description>
     </item>
     <item>
-      <title>脚踏环卫垃圾桶</title>
+      <title>踏板环卫垃圾桶</title>
       <link>http://localhost:1313/products/wheelie2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/products/wheelie2/</guid>

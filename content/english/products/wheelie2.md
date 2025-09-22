@@ -1,8 +1,8 @@
 ---
-title: "脚踏环卫垃圾桶"
+title: "踏板环卫垃圾桶"
 description: "耐高温，耐低温，耐酸碱，耐腐蚀，使用寿命长"
-list_image: "images/products/wheelie/main.jpg"
-hero_image: "images/products/wheelie/hero.jpg"
+list_image: "images/products/wheelie-p/main.jpg"
+hero_image: "images/products/wheelie-p/hero.jpg"
 weight: 70          # Hugo 排序用
 type:   "products" # 可按你现有 taxonomies 调整
 specs_heading: "规格总表"
@@ -21,10 +21,10 @@ showcase:
   enable: true
   gallery_heading: "产品展示"
   items:
-    - image: "images/products/wheelie/1.jpg"
+    - image: "images/products/wheelie-p/1.jpg"
       title: "LLDPE 卧式水塔"
       content: "圆筒卧式结构，重心更低更稳，厚壁耐冲击"
-    - image: "images/products/wheelie/2.jpg"
+    - image: "images/products/wheelie-p/2.jpg"
       title: "承重与抗形变提升"
       content: "环向/纵向加强筋分散侧压与滚动应力，满载久置不易鼓胀"
 

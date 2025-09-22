@@ -1,5 +1,5 @@
 ---
-title: "pedal 垃圾桶"
+title: "踏板垃圾桶"
 description: "多尺寸可选；空箱可嵌套，圆角内壁好清洗。"
 list_image: "images/products/pedal/main.jpg"
 hero_image: "images/products/pedal/hero.jpg"
