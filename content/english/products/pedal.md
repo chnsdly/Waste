@@ -1,21 +1,21 @@
 ---
 title: "踏板垃圾桶"
-description: "多尺寸可选；空箱可嵌套，圆角内壁好清洗。"
+description: "多尺寸可选；脚踏轻松开盖，内壁光滑易清洁。"
 list_image: "images/products/pedal/main.jpg"
 hero_image: "images/products/pedal/hero.jpg"
 weight: 10          # Hugo 排序用
-type:   "products" # 可按你现有 taxonomies 调整
+type:   "products"  # 可按你现有 taxonomies 调整
 specs_heading: "规格总表"
 
 features:
-  - title: "pedal 材质"
-    text: "高韧耐冲击，内壁光滑不易挂污，长期使用不易老化。"
+  - title: "脚踏开盖"
+    text: "脚踩即可轻松开盖，解放双手，避免接触交叉污染，适合家庭、办公与公共场所。"
 
-  - title: "可嵌套省空间"
-    text: "空箱相互嵌套，装载率更高、周转更高效。"
+  - title: "耐用与易清洁"
+    text: "全新HDPE材质，耐冲击抗老化；桶体内壁光滑，污渍不易残留，日常冲洗更方便。"
 
-  - title: "支持定制"
-    text: "颜色/容量/Logo 可选；量产交付稳定。"
+  - title: "可选与定制"
+    text: "提供多种容量与颜色选择，可加印Logo，满足不同环境与分类需求。"
 
 
 showcase:
@@ -23,32 +23,35 @@ showcase:
   gallery_heading: "产品介绍"
   items:
     - image: "images/products/pedal/1.jpg"
-      title: "pedal 大容量周转箱（30–400 L）"
-      content:  "厚壁与圆角内壁更耐用、易冲洗；多色可选，适合仓配与加工现场的高频使用。"
+      title: "整体展示"
+      content: "外观方正稳固，配备脚踏与上翻盖设计，适配多种场景。"
+
     - image: "images/products/pedal/2.jpg"
-      title: "pedal 小型周转箱（3.5–22 L）"
-      content:  "小批量取用与分装更灵活，便于快进快出；可嵌套回空省库位，日清日洗不易挂污。"
+      title: "踏板演示"
+      content: "踩踏灵敏，轻松开合，避免手部接触，更符合卫生要求。"
+
     - image: "images/products/pedal/3.jpg"
-      title: "底部加强筋结构"
-      content:  "交错筋条提升抗压与抗冲击，底纹增强湿地面摩擦力；受力更均匀，满载堆放更稳。"
+      title: "盖体与桶体连接"
+      content: "耐用铰链连接，反复开合不卡顿，经久耐用。"
+
     - image: "images/products/pedal/4.jpg"
-      title: "使用场景实拍｜加工与分拣现场"
-      content:  "标准化分区与流程核对下的日常作业，pedal 敞口容器用于清洗、暂存与转运。"
+      title: "光滑内壁"
+      content: "桶体内壁平整光滑，清理垃圾残渣轻松方便，提升日常卫生效率。"
 
 
 products:
   enable: true
   items:
-    - name: "尺寸: 26*19*7cm"
+    - name: "30L"
       specs: "Size: 26*19*7cm"
       image: "images/products/pedal/30.jpg"
-    - name: "尺寸: 27.5*22*8cm"
+    - name: "50L"
       specs: "Size: 27.5*22*8cm"
       image: "images/products/pedal/50.jpg"
-    - name: "尺寸: 29*22*8.5cm"
+    - name: "80L"
       specs: "Size: 29*22*8.5cm"
       image: "images/products/pedal/80.jpg"
-    - name: "尺寸: 30.5*24*9cm"
+    - name: "100L"
       specs: "Size: 30.5*24*9cm"
       image: "images/products/pedal/100.jpg"
 ---

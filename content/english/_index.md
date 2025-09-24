@@ -2,44 +2,44 @@
 ############################### Banner ##############################
 banner:
   enable: true
-  bg_image: "images/slider-bins.jpg"         # 可用现有图：images/slider-bg.jpg
+  bg_image: "images/feature-bg.jpg"
   bg_overlay: true
   title: "让清洁更省心，管理更可控，预算更友好"
   content: "抗冲击、耐晒耐寒、开合顺畅，减少破损与更换，长期总成本更低"
   button:
     enable: true
-    label: "查看垃圾桶系列"
-    link: "products/bins/"                   # 若没有此路径，可先指向 "products/"
+    label: "查看产品"
+    link: "products/"
 
 ############################# home-products #################################
 products:
   enable: true
   title: "塑料垃圾桶系列（环卫 / 商用 / 脚踏）"
-  description: "面向小区、园区、街道保洁、商场与家庭等场景，提供注塑/滚塑成型的耐用垃圾桶。覆盖 15L–240L 容量，支持脚踏开盖、静音脚轮、分类标识、加厚桶身等可选项。"
+  description: "面向小区、园区、街道保洁、商场与家庭等场景，提供注塑/滚塑成型的耐用垃圾桶。覆盖 30L–240L 容量，支持脚踏开盖、静音脚轮、分类标识、加厚桶身等可选项。"
   items:
     - title: "产品"
-      content: "环卫移动垃圾桶 30L/260L（橡胶脚轮/把手/加强桶沿，兼容主流翻桶机构）；脚踏垃圾桶 15–60L。"
-      image: "images/bins/all.png"
+      content: "环卫垃圾桶 30L/240L（橡胶脚轮/把手/加强桶沿，兼容主流翻桶机构）；摇盖、分类、医疗垃圾桶等。"
+      image: "images/all.jpg"
 
     - title: "材料"
-      content: "HDPE/LLDPE（注塑/滚塑），脚踏桶亦可选 PP；添加抗 UV 与抗氧化配方，耐候、抗冲击、耐常见清洁剂。"
-      image: "images/bins/material.jpg"
+      content: "HDPE材质，抗 UV 抗老化，耐候、抗冲击、耐常见清洁剂。"
+      image: "images/material.jpg"
 
     - title: "结构"
       content: "加厚桶身与底部加强筋；脚踏机构开合顺畅；桶盖密合度佳，抑制异味外逸。"
-      image: "images/bins/structure.jpg"
+      image: "images/structure.jpg"
     
     - title: "质量"
-      content: "来料检验与过程质控；跌落/堆码/低温冲击等抽检；户外耐候与 UV 老化验证；关键受力位（桶沿/底角）定向加厚。"
-      image: "images/bins/quality.jpg"
+      content: "来料检验与过程质控；跌落/堆码/低温冲击等抽检；户外耐候与老化验证；关键受力位定向加厚。"
+      image: "images/quality.jpg"
 
     - title: "规格"
-      content: "多容量、多颜色可选；标识：通用分类图标/自定义 Logo；开盖方式：脚踏/手提。"
-      image: "images/bins/specs.jpg"
+      content: "多容量、多颜色可选；标识：通用分类图标/自定义 Logo；开盖方式：脚踏/手提/摇盖等。"
+      image: "images/specs.jpg"
 
     - title: "交付"
       content: "提供选型咨询与场景兼容性把关；支持颜色/Logo定制与样品验证；稳定排产，批量交付。"
-      image: "images/bins/factory.jpg"
+      image: "images/factory.jpg"
 
 
 
