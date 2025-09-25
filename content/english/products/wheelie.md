@@ -8,11 +8,8 @@ type:   "products"  # 可按你现有 taxonomies 调整
 specs_heading: "规格总表"
 
 features:
-  - title: "HDPE/LLDPE 材质"
+  - title: "HDPE材质"
     text: "抗冲击耐磨损，耐酸碱，桶体厚实，使用寿命长。"
-
-  - title: "带盖设计"
-    text: "桶盖严密闭合，有效防止异味外泄与雨水进入。"
 
   - title: "灵活移动"
     text: "底部橡胶轮耐磨顺滑，满载状态下依然轻松推动。"

@@ -1,34 +1,34 @@
 ---
-title: "环卫垃圾桶脚踏款"
-description: "耐高温，耐低温，耐酸碱，耐腐蚀，使用寿命长"
+title: "环卫垃圾桶脚踏版"
+description: "带盖防异味，底部带轮推行方便，适合小区、街道、园区等环卫场所使用。"
 list_image: "images/products/wheelie-p/main.jpg"
 hero_image: "images/products/wheelie-p/hero.jpg"
 weight: 70          # Hugo 排序用
-type:   "products" # 可按你现有 taxonomies 调整
+type:   "products"  # 可按你现有 taxonomies 调整
 specs_heading: "规格总表"
 
 features:
-  - title: "LLDPE 材质"
-    text: "高韧耐冲击，内壁光滑不易挂污，长期使用不易老化。"
+  - title: "HDPE 材质"
+    text: "抗冲击耐磨损，耐酸碱，桶体厚实，使用寿命长。"
 
-  - title: "耐候抗 UV"
-    text: "户外长期使用不易脆裂；不同温差环境稳定，寿命更长。"
+  - title: "灵活移动"
+    text: "底部橡胶轮耐磨顺滑，满载状态下依然轻松推动。"
 
   - title: "支持定制"
-    text: "颜色/容量/Logo 可选；量产交付稳定。"
+    text: "提供 100L、120L、240L 容量；可选颜色与 Logo 定制，满足环卫分类需求。"
 
-showcase:
+products:
   enable: true
-  gallery_heading: "产品展示"
   items:
-    - image: "images/products/wheelie-p/1.jpg"
-      title: "LLDPE 卧式水塔"
-      content: "圆筒卧式结构，重心更低更稳，厚壁耐冲击"
-    - image: "images/products/wheelie-p/2.jpg"
-      title: "承重与抗形变提升"
-      content: "环向/纵向加强筋分散侧压与滚动应力，满载久置不易鼓胀"
-
-
+    - name: "100L"
+      specs: ""
+      image: "images/products/wheelie-p/100.jpg"
+    - name: "120L"
+      specs: ""
+      image: "images/products/wheelie-p/120.jpg"
+    - name: "240L"
+      specs: ""
+      image: "images/products/wheelie-p/240.jpg"
 
 spec_headers:
   - { key: "model",     label: "型号" }
