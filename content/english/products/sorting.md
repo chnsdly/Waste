@@ -1,21 +1,22 @@
 ---
 title: "分类垃圾桶"
-description: "耐高温，耐低温，耐酸碱，耐腐蚀，使用寿命长"
+description: "不锈钢材质，美观耐用，支持多格并排组合，适用于公共场所的垃圾分类投放。"
 list_image: "images/products/sorting/main.jpg"
 hero_image: "images/products/sorting/hero.jpg"
 weight: 70          # Hugo 排序用
-type:   "products" # 可按你现有 taxonomies 调整
+type:   "products"  # 可按你现有 taxonomies 调整
 specs_heading: "规格总表"
 
 features:
-  - title: "LLDPE 材质"
-    text: "高韧耐冲击，内壁光滑不易挂污，长期使用不易老化。"
+  - title: "不锈钢材质"
+    text: "表面光洁耐腐蚀，抗冲击，耐酸碱，长期使用不易生锈。"
 
-  - title: "耐候抗 UV"
-    text: "户外长期使用不易脆裂；不同温差环境稳定，寿命更长。"
+  - title: "多格组合"
+    text: "可按需求设置 2 格、3 格或 4 格，常见投放口为可回收/不可回收/有害/厨余。"
 
   - title: "支持定制"
-    text: "颜色/容量/Logo 可选；量产交付稳定。"
+    text: "可定制容量、开口形式、标识图案及 Logo；满足不同场景需求。"
+
 
 products:
   enable: true

@@ -1,34 +1,73 @@
 ---
 title: "环卫垃圾桶"
-description: "耐高温，耐低温，耐酸碱，耐腐蚀，使用寿命长"
+description: "带盖防异味，底部带轮推行方便，适合小区、街道、园区等环卫场所使用。"
 list_image: "images/products/wheelie/main.jpg"
 hero_image: "images/products/wheelie/hero.jpg"
 weight: 70          # Hugo 排序用
-type:   "products" # 可按你现有 taxonomies 调整
+type:   "products"  # 可按你现有 taxonomies 调整
 specs_heading: "规格总表"
 
 features:
-  - title: "LLDPE 材质"
-    text: "高韧耐冲击，内壁光滑不易挂污，长期使用不易老化。"
+  - title: "HDPE/LLDPE 材质"
+    text: "抗冲击耐磨损，耐酸碱，桶体厚实，使用寿命长。"
 
-  - title: "耐候抗 UV"
-    text: "户外长期使用不易脆裂；不同温差环境稳定，寿命更长。"
+  - title: "带盖设计"
+    text: "桶盖严密闭合，有效防止异味外泄与雨水进入。"
+
+  - title: "灵活移动"
+    text: "底部橡胶轮耐磨顺滑，满载状态下依然轻松推动。"
 
   - title: "支持定制"
-    text: "颜色/容量/Logo 可选；量产交付稳定。"
+    text: "提供 120L / 240L 等常见容量；可选颜色与 Logo 定制，满足环卫分类需求。"
 
 showcase:
   enable: true
   gallery_heading: "产品展示"
   items:
     - image: "images/products/wheelie/1.jpg"
-      title: "LLDPE 卧式水塔"
-      content: "圆筒卧式结构，重心更低更稳，厚壁耐冲击"
+      title: "盖子把手"
+      content: "桶盖顶部设有手柄，方便开启与关闭。"
+
     - image: "images/products/wheelie/2.jpg"
-      title: "承重与抗形变提升"
-      content: "环向/纵向加强筋分散侧压与滚动应力，满载久置不易鼓胀"
+      title: "加固连接轴"
+      content: "桶盖与桶体通过加厚连接轴牢固衔接，开合顺畅不易损坏。"
+
+    - image: "images/products/wheelie/3.jpg"
+      title: "耐磨滚轮"
+      content: "配备高强度橡胶轮，推行顺滑，承重稳定。"
+
+    - image: "images/products/wheelie/4.jpg"
+      title: "应用场景"
+      content: "广泛用于小区、园区、街道等公共环境的垃圾收集。"
 
 
+products:
+  enable: true
+  items:
+    - name: "30L"
+      specs: ""
+      image: "images/products/wheelie/30.jpg"
+    - name: "50L"
+      specs: ""
+      image: "images/products/wheelie/50.jpg"
+    - name: "100L"
+      specs: ""
+      image: "images/products/wheelie/100.jpg"
+    - name: "120L"
+      specs: ""
+      image: "images/products/wheelie/120.jpg"
+    - name: "120L挂车款"
+      specs: ""
+      image: "images/products/wheelie/120g.jpg"
+    - name: "240L"
+      specs: ""
+      image: "images/products/wheelie/240.jpg"
+    - name: "240L挂车款"
+      specs: ""
+      image: "images/products/wheelie/240g.jpg"
+    - name: "660L"
+      specs: ""
+      image: "images/products/wheelie/660.jpg"
 
 spec_headers:
   - { key: "model",     label: "型号" }

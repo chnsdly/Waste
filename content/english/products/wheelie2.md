@@ -1,5 +1,5 @@
 ---
-title: "踏板环卫垃圾桶"
+title: "环卫垃圾桶脚踏款"
 description: "耐高温，耐低温，耐酸碱，耐腐蚀，使用寿命长"
 list_image: "images/products/wheelie-p/main.jpg"
 hero_image: "images/products/wheelie-p/hero.jpg"
