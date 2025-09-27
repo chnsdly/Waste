@@ -1,43 +1,41 @@
 ---
-title: "医疗垃圾桶"
-description: "脚踏开盖，闭合严密；多尺寸可选，便于医疗废物分类管理。"
+title: "Medical Waste Bins"
+description: "Foot-pedal opening, tightly sealed; multiple sizes available for convenient medical waste classification management."
 list_image: "images/products/medical/main.jpg"
 hero_image: "images/products/medical/hero.jpg"
-weight: 15          # Hugo 排序用
-type:   "products"  # 可按你现有 taxonomies 调整
-specs_heading: "规格总表"
+weight: 15          # Hugo sorting
+type:   "products"  # Adjust per existing taxonomies
+specs_heading: "Specifications"
 
 features:
-  - title: "安全材质"
-    text: "采用全新HDPE制造，耐冲击、抗老化，桶体内壁光滑不挂污，适合医疗废物收集与日常消毒清洗。"
+  - title: "Safe Material"
+    text: "Made from virgin HDPE, impact-resistant and anti-aging. The smooth inner wall prevents residue, suitable for medical waste collection and routine disinfection."
 
-  - title: "脚踏开盖"
-    text: "脚踩即可轻松开合，避免手部接触，减少交叉污染风险，更符合医院与诊所的卫生管理要求。"
+  - title: "Pedal Opening"
+    text: "Easy foot-pedal operation avoids hand contact, reduces cross-contamination risk, and meets hygiene standards for hospitals and clinics."
 
-  - title: "分类与定制"
-    text: "提供不同容量与颜色选择，可印制医疗废物标识或Logo，支持多科室分类使用。"
-
+  - title: "Classification & Customization"
+    text: "Available in various capacities and colors. Medical waste symbols or logos can be printed, supporting multi-department classification."
 
 showcase:
   enable: true
-  gallery_heading: "产品介绍"
+  gallery_heading: "Product Overview"
   items:
     - image: "images/products/medical/1.jpg"
-      title: "双色外观展示"
-      content: "双色桶体可快速区分感染性与其他医疗废物，方便分类管理与日常清运。"
+      title: "Dual-Color Appearance"
+      content: "Two-tone design allows quick distinction between infectious and other medical waste, facilitating classification and daily disposal."
 
     - image: "images/products/medical/2.jpg"
-      title: "脚踏演示"
-      content: "脚踏灵敏耐用，开合顺畅，操作时无需手部接触，保障卫生安全。"
+      title: "Pedal Demonstration"
+      content: "Durable and responsive pedal with smooth opening and closing, ensuring hygiene without hand contact."
 
     - image: "images/products/medical/3.jpg"
-      title: "盖体与桶体连接"
-      content: "坚固铰链设计，反复开合不卡顿，闭合更严密，避免异味外泄。"
+      title: "Lid and Body Connection"
+      content: "Robust hinge design withstands repeated use, ensures tighter sealing, and prevents odor leakage."
 
     - image: "images/products/medical/4.jpg"
-      title: "踏板传动结构"
-      content: "背部踏板连杆结构传力稳定，使用寿命长，满足高频开合需求。"
-
+      title: "Pedal Transmission Structure"
+      content: "Rear pedal linkage provides stable force transmission, long service life, and meets high-frequency usage needs."
 
 products:
   enable: true

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>客户案例 on Baoheng | Waste Bin</title>
+    <link>http://localhost:1313/fr/categories/%E5%AE%A2%E6%88%B7%E6%A1%88%E4%BE%8B/</link>
+    <description>Recent content in 客户案例 on Baoheng | Waste Bin</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Fri, 08 Sep 2023 11:07:10 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/fr/categories/%E5%AE%A2%E6%88%B7%E6%A1%88%E4%BE%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>客户案例</title>
+      <link>http://localhost:1313/fr/blog/blog-post-1/</link>
+      <pubDate>Fri, 08 Sep 2023 11:07:10 +0600</pubDate>
+      <guid>http://localhost:1313/fr/blog/blog-post-1/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

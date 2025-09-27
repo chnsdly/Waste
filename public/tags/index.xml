@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 08 Sep 2023 11:07:10 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>生鲜</title>
-      <link>http://localhost:1313/tags/%E7%94%9F%E9%B2%9C/</link>
+      <title>Fresh Produce</title>
+      <link>http://localhost:1313/tags/fresh-produce/</link>
       <pubDate>Fri, 08 Sep 2023 11:07:10 +0600</pubDate>
-      <guid>http://localhost:1313/tags/%E7%94%9F%E9%B2%9C/</guid>
+      <guid>http://localhost:1313/tags/fresh-produce/</guid>
       <description></description>
     </item>
   </channel>

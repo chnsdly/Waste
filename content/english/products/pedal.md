@@ -1,43 +1,41 @@
 ---
-title: "踏板垃圾桶"
-description: "多尺寸可选；脚踏轻松开盖，内壁光滑易清洁。"
+title: "Pedal Trash Bins"
+description: "Available in multiple sizes; easy foot-pedal opening with smooth, easy-to-clean inner walls."
 list_image: "images/products/pedal/main.jpg"
 hero_image: "images/products/pedal/hero.jpg"
-weight: 10          # Hugo 排序用
-type:   "products"  # 可按你现有 taxonomies 调整
-specs_heading: "规格总表"
+weight: 10          # Hugo sorting
+type:   "products"  # Adjust per existing taxonomies
+specs_heading: "Specifications"
 
 features:
-  - title: "脚踏开盖"
-    text: "脚踩即可轻松开盖，解放双手，避免接触交叉污染，适合家庭、办公与公共场所。"
+  - title: "Pedal Opening"
+    text: "Foot-pedal operation for easy opening, hands-free use, and reduced risk of cross-contamination. Suitable for homes, offices, and public areas."
 
-  - title: "耐用与易清洁"
-    text: "全新HDPE材质，耐冲击抗老化；桶体内壁光滑，污渍不易残留，日常冲洗更方便。"
+  - title: "Durable & Easy to Clean"
+    text: "Made of virgin HDPE, impact-resistant and anti-aging. Smooth inner walls prevent residue buildup and allow convenient daily cleaning."
 
-  - title: "可选与定制"
-    text: "提供多种容量与颜色选择，可加印Logo，满足不同环境与分类需求。"
-
+  - title: "Options & Customization"
+    text: "Available in multiple sizes and colors, with optional logo printing to meet various environments and sorting needs."
 
 showcase:
   enable: true
-  gallery_heading: "产品介绍"
+  gallery_heading: "Product Overview"
   items:
     - image: "images/products/pedal/1.jpg"
-      title: "整体展示"
-      content: "外观方正稳固，配备脚踏与上翻盖设计，适配多种场景。"
+      title: "Full Display"
+      content: "Sturdy square design with pedal and flip-top lid, adaptable to diverse scenarios."
 
     - image: "images/products/pedal/2.jpg"
-      title: "踏板演示"
-      content: "踩踏灵敏，轻松开合，避免手部接触，更符合卫生要求。"
+      title: "Pedal Demonstration"
+      content: "Responsive pedal ensures smooth opening and closing without hand contact, meeting hygiene standards."
 
     - image: "images/products/pedal/3.jpg"
-      title: "盖体与桶体连接"
-      content: "耐用铰链连接，反复开合不卡顿，经久耐用。"
+      title: "Lid and Body Connection"
+      content: "Durable hinge connection withstands repeated use without jamming."
 
     - image: "images/products/pedal/4.jpg"
-      title: "光滑内壁"
-      content: "桶体内壁平整光滑，清理垃圾残渣轻松方便，提升日常卫生效率。"
-
+      title: "Smooth Inner Wall"
+      content: "Flat and smooth inner walls allow easy removal of waste residue, improving daily hygiene efficiency."
 
 products:
   enable: true

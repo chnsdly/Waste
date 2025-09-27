@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kunststoff-Mülleimer on Baoheng | Waste Bin</title>
+    <link>http://localhost:1313/de/products/</link>
+    <description>Recent content in Kunststoff-Mülleimer on Baoheng | Waste Bin</description>
+    <generator>Hugo</generator>
+    <language>de-at</language>
+    <atom:link href="http://localhost:1313/de/products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pedal-Mülleimer</title>
+      <link>http://localhost:1313/de/products/pedal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/products/pedal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Medizinische Abfallbehälter</title>
+      <link>http://localhost:1313/de/products/medical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/products/medical/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Abfallbehälter mit Schwingdeckel</title>
+      <link>http://localhost:1313/de/products/swing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/products/swing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Abfalltrennbehälter</title>
+      <link>http://localhost:1313/de/products/sorting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/products/sorting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kommunale Rollbehälter</title>
+      <link>http://localhost:1313/de/products/wheelie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/products/wheelie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rollbehälter mit Pedal</title>
+      <link>http://localhost:1313/de/products/wheelie2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/products/wheelie2/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

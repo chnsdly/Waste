@@ -6,6 +6,14 @@
     <description>Recent content in Categories on Baoheng | Waste Bin</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
+    <lastBuildDate>Fri, 08 Sep 2023 11:07:10 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Études De Cas Clients</title>
+      <link>http://localhost:1313/fr/categories/%C3%A9tudes-de-cas-clients/</link>
+      <pubDate>Fri, 08 Sep 2023 11:07:10 +0600</pubDate>
+      <guid>http://localhost:1313/fr/categories/%C3%A9tudes-de-cas-clients/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

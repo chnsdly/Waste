@@ -19,70 +19,62 @@ about:
           officia adipisci neque!"
   image : "images/company/company-group-pic.jpg"
 
-
 ########################## featured service ############################
 featured_service:
   enable : true
   service_item:
-    # featured service item loop
     - name : "Interface Design"
       icon : "fas fa-flask"
       color : "primary"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
 
-    # featured service item loop
     - name : "Product Branding"
       icon : "fas fa-leaf"
       color : "primary-dark"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
 
-    # featured service item loop
     - name : "Game Development"
       icon : "fas fa-lightbulb"
       color : "primary-darker"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
 
-
 ############################# Service ###############################
 service:
   enable: true
-  title: "垃圾桶核心优势"
-  description: "面向环卫与商用的高频使用场景，聚焦耐用、效率与长期总成本（TCO）"
+  title: "Core Advantages"
+  description: "Designed for high-frequency sanitation and commercial use, focusing on durability, efficiency, and long-term total cost of ownership (TCO)."
   service_item:
     - icon: fas fa-cubes
-      name: "材质与耐候"
-      content: "HDPE，-30～60℃稳定抗冲击"
+      name: "Material & Weather Resistance"
+      content: "HDPE, stable impact resistance from -30°C to 60°C."
 
     - icon: fas fa-shield-alt
-      name: "结构强化"
-      content: "桶沿/底角加厚与加强筋"
+      name: "Structural Reinforcement"
+      content: "Thickened rims and reinforced bottom corners."
 
     - icon: fas fa-shoe-prints
-      name: "脚踏与开合"
-      content: "脚踏顺畅，设计目标≥10万次循环。"
+      name: "Pedal & Lid Operation"
+      content: "Smooth pedal design, ≥100,000 cycles target."
 
     - icon: fas fa-umbrella
-      name: "密合与抑味"
-      content: "桶盖密合度高，减少异味外逸与雨水渗入"
+      name: "Sealing & Odor Control"
+      content: "Tight-fitting lids reduce odor leakage and rainwater ingress."
 
     - icon: fas fa-dolly
-      name: "移动与静音"
-      content: "高弹静音橡胶脚轮，推行更省力"
+      name: "Mobility & Silence"
+      content: "High-elastic silent rubber casters for effortless movement."
 
     - icon: fas fa-puzzle-piece
-      name: "适配与标准"
-      content: "兼容主流翻桶机构，分类标识完善"
+      name: "Compatibility & Standards"
+      content: "Compatible with mainstream lifter mechanisms; complete sorting labels."
 
     - icon: fas fa-tint
-      name: "卫生易清洁"
-      content: "内壁光滑不挂污，耐常见清洁剂与消毒"
+      name: "Hygiene & Easy Cleaning"
+      content: "Smooth interior resists dirt; resistant to common detergents and disinfectants."
 
     - icon: fas fa-tools
-      name: "定制与维保"
-      content: "颜色/Logo/定制，常用配件可更换"
-
-
-
+      name: "Customization & Maintenance"
+      content: "Custom colors, logos, and tailored options available."
 
 ############################# call to action #################################
 cta:

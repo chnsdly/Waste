@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Poubelles en plastique on Baoheng | Waste Bin</title>
+    <link>http://localhost:1313/fr/products/</link>
+    <description>Recent content in Poubelles en plastique on Baoheng | Waste Bin</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="http://localhost:1313/fr/products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Poubelles à pédale</title>
+      <link>http://localhost:1313/fr/products/pedal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/products/pedal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Poubelles médicales</title>
+      <link>http://localhost:1313/fr/products/medical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/products/medical/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Poubelles à couvercle basculant</title>
+      <link>http://localhost:1313/fr/products/swing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/products/swing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bacs roulants à pédale</title>
+      <link>http://localhost:1313/fr/products/wheelie2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/products/wheelie2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bacs roulants d’assainissement</title>
+      <link>http://localhost:1313/fr/products/wheelie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/products/wheelie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Poubelles de tri</title>
+      <link>http://localhost:1313/fr/products/sorting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/products/sorting/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

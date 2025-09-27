@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bidoni della spazzatura in plastica on Baoheng | Waste Bin</title>
+    <link>http://localhost:1313/it/products/</link>
+    <description>Recent content in Bidoni della spazzatura in plastica on Baoheng | Waste Bin</description>
+    <generator>Hugo</generator>
+    <language>it-IT</language>
+    <atom:link href="http://localhost:1313/it/products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bidoni a pedale</title>
+      <link>http://localhost:1313/it/products/pedal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/products/pedal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contenitori per rifiuti sanitari</title>
+      <link>http://localhost:1313/it/products/medical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/products/medical/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bidoni con coperchio basculante</title>
+      <link>http://localhost:1313/it/products/swing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/products/swing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bidoni carrellati a pedale</title>
+      <link>http://localhost:1313/it/products/wheelie2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/products/wheelie2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bidoni carrellati per la sanificazione</title>
+      <link>http://localhost:1313/it/products/wheelie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/products/wheelie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contenitori per la raccolta differenziata</title>
+      <link>http://localhost:1313/it/products/sorting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/products/sorting/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

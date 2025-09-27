@@ -1,42 +1,41 @@
 ---
-title: "环卫垃圾桶"
-description: "带盖防异味，底部带轮推行方便，适合小区、街道、园区等环卫场所使用。"
+title: "Sanitation Wheelie Bins"
+description: "Lidded to contain odors, wheeled base for easy maneuvering; suitable for residential communities, streets, and parks."
 list_image: "images/products/wheelie/main.jpg"
 hero_image: "images/products/wheelie/hero.jpg"
-weight: 70          # Hugo 排序用
-type:   "products"  # 可按你现有 taxonomies 调整
-specs_heading: "规格总表"
+weight: 70          # Hugo sorting
+type:   "products"  # Adjust per existing taxonomies
+specs_heading: "Specifications"
 
 features:
-  - title: "HDPE材质"
-    text: "抗冲击耐磨损，耐酸碱，桶体厚实，使用寿命长。"
+  - title: "HDPE Material"
+    text: "Impact- and wear-resistant, acid-alkali resistant; thick bin body with long service life."
 
-  - title: "灵活移动"
-    text: "底部橡胶轮耐磨顺滑，满载状态下依然轻松推动。"
+  - title: "Easy Mobility"
+    text: "Durable rubber wheels roll smoothly; easy to push even at full load."
 
-  - title: "支持定制"
-    text: "提供 120L / 240L 等常见容量；可选颜色与 Logo 定制，满足环卫分类需求。"
+  - title: "Customization"
+    text: "Common capacities include 120L / 240L; optional colors and logo customization."
 
 showcase:
   enable: true
-  gallery_heading: "产品展示"
+  gallery_heading: "Product Showcase"
   items:
     - image: "images/products/wheelie/1.jpg"
-      title: "盖子把手"
-      content: "桶盖顶部设有手柄，方便开启与关闭。"
+      title: "Lid Handle"
+      content: "Top-mounted handle for convenient opening and closing."
 
     - image: "images/products/wheelie/2.jpg"
-      title: "加固连接轴"
-      content: "桶盖与桶体通过加厚连接轴牢固衔接，开合顺畅不易损坏。"
+      title: "Reinforced Hinge Axle"
+      content: "Thickened connecting axle secures lid to body for smooth, durable operation."
 
     - image: "images/products/wheelie/3.jpg"
-      title: "耐磨滚轮"
-      content: "配备高强度橡胶轮，推行顺滑，承重稳定。"
+      title: "Wear-Resistant Wheels"
+      content: "High-strength rubber wheels roll smoothly with stable load-bearing."
 
     - image: "images/products/wheelie/4.jpg"
-      title: "应用场景"
-      content: "广泛用于小区、园区、街道等公共环境的垃圾收集。"
-
+      title: "Applications"
+      content: "Widely used for waste collection in communities, parks, and streets."
 
 products:
   enable: true
@@ -53,13 +52,13 @@ products:
     - name: "120L"
       specs: ""
       image: "images/products/wheelie/120.jpg"
-    - name: "120L挂车款"
+    - name: "120L Trailer-Mounted Model"
       specs: ""
       image: "images/products/wheelie/120g.jpg"
     - name: "240L"
       specs: ""
       image: "images/products/wheelie/240.jpg"
-    - name: "240L挂车款"
+    - name: "240L Trailer-Mounted Model"
       specs: ""
       image: "images/products/wheelie/240g.jpg"
     - name: "660L"
@@ -67,30 +66,26 @@ products:
       image: "images/products/wheelie/660.jpg"
 
 spec_headers:
-  - { key: "model",     label: "型号" }
-  - { key: "size",      label: "尺寸 (cm)" }
-  - { key: "mouth_dia", label: "口径 (cm)" }
-  - { key: "volume",    label: "容积 (L)" }
-  - { key: "material",  label: "原料" }
-  - { key: "process",   label: "生产工艺" }
-  - { key: "color",     label: "颜色" }
+  - { key: "model",     label: "Model" }
+  - { key: "size",      label: "Size (cm)" }
+  - { key: "mouth_dia", label: "Mouth Diameter (cm)" }
+  - { key: "volume",    label: "Capacity (L)" }
+  - { key: "material",  label: "Material" }
+  - { key: "process",   label: "Process" }
+  - { key: "color",     label: "Color" }
 
 specs:
-
-  - { model: PCLLDPE500H,   size: 116 * 75 * 82.5,   mouth_dia: 45, volume: 500,   material: LLDPE, process: 滚塑, color: 白 }
-  - { model: PCLLDPE1000H,  size: 140 * 100 * 115,   mouth_dia: 45, volume: 1000,  material: LLDPE, process: 滚塑, color: 白 }
-  - { model: PCLLDPE1500H,  size: 150 * 115 * 125,   mouth_dia: 45, volume: 1500,  material: LLDPE, process: 滚塑, color: 白 }
-  - { model: PCLLDPE2000H,  size: 175 * 130 * 145,   mouth_dia: 45, volume: 2000,  material: LLDPE, process: 滚塑, color: 白 }
-  - { model: PCLLDPE3000H,  size: 195 * 170 * 130,   mouth_dia: 45, volume: 3000,  material: LLDPE, process: 滚塑, color: 白 }
-  - { model: PCLLDPE4000H,  size: 230 * 170 * 128,   mouth_dia: 45, volume: 4000,  material: LLDPE, process: 滚塑, color: 白 }
-  - { model: PCLLDPE5000H,  size: 290 * 185 * 145,   mouth_dia: 45, volume: 5000,  material: LLDPE, process: 滚塑, color: 白 }
-  - { model: PCLLDPE10000H, size: 350 * 220 * 180,   mouth_dia: 45, volume: 10000, material: LLDPE, process: 滚塑, color: 白 }
-  - { model: PCLLDPE12000H, size: 480 * 200 * 168,   mouth_dia: 45, volume: 12000, material: LLDPE, process: 滚塑, color: 白 }
-  - { model: PCLLDPE15000H, size: 410 * 240 * 200,   mouth_dia: 45, volume: 15000, material: LLDPE, process: 滚塑, color: 白 }
-  - { model: PCLLDPE20000H, size: 520 * 240 * 213,   mouth_dia: 45, volume: 20000, material: LLDPE, process: 滚塑, color: 白 }
-  - { model: PCLLDPE4000HF, size: 202 * 165 * 140,   mouth_dia: 45, volume: 4000,  material: LLDPE, process: 滚塑, color: 白 }
-  - { model: PCLLDPE5000HF, size: 225 * 185 * 140,   mouth_dia: 45, volume: 5000,  material: LLDPE, process: 滚塑, color: 白 }
-
-
-
+  - { model: PCLLDPE500H,   size: 116 * 75 * 82.5,   mouth_dia: 45, volume: 500,   material: LLDPE, process: Rotomolding, color: White }
+  - { model: PCLLDPE1000H,  size: 140 * 100 * 115,   mouth_dia: 45, volume: 1000,  material: LLDPE, process: Rotomolding, color: White }
+  - { model: PCLLDPE1500H,  size: 150 * 115 * 125,   mouth_dia: 45, volume: 1500,  material: LLDPE, process: Rotomolding, color: White }
+  - { model: PCLLDPE2000H,  size: 175 * 130 * 145,   mouth_dia: 45, volume: 2000,  material: LLDPE, process: Rotomolding, color: White }
+  - { model: PCLLDPE3000H,  size: 195 * 170 * 130,   mouth_dia: 45, volume: 3000,  material: LLDPE, process: Rotomolding, color: White }
+  - { model: PCLLDPE4000H,  size: 230 * 170 * 128,   mouth_dia: 45, volume: 4000,  material: LLDPE, process: Rotomolding, color: White }
+  - { model: PCLLDPE5000H,  size: 290 * 185 * 145,   mouth_dia: 45, volume: 5000,  material: LLDPE, process: Rotomolding, color: White }
+  - { model: PCLLDPE10000H, size: 350 * 220 * 180,   mouth_dia: 45, volume: 10000, material: LLDPE, process: Rotomolding, color: White }
+  - { model: PCLLDPE12000H, size: 480 * 200 * 168,   mouth_dia: 45, volume: 12000, material: LLDPE, process: Rotomolding, color: White }
+  - { model: PCLLDPE15000H, size: 410 * 240 * 200,   mouth_dia: 45, volume: 15000, material: LLDPE, process: Rotomolding, color: White }
+  - { model: PCLLDPE20000H, size: 520 * 240 * 213,   mouth_dia: 45, volume: 20000, material: LLDPE, process: Rotomolding, color: White }
+  - { model: PCLLDPE4000HF, size: 202 * 165 * 140,   mouth_dia: 45, volume: 4000,  material: LLDPE, process: Rotomolding, color: White }
+  - { model: PCLLDPE5000HF, size: 225 * 185 * 140,   mouth_dia: 45, volume: 5000,  material: LLDPE, process: Rotomolding, color: White }
 ---
